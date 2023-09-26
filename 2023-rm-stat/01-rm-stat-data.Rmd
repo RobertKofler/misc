@@ -1,7 +1,7 @@
 ---
-title: "Gonzalez - analysis (MCTE)"
-author: "roko"
-date: "9/8/2023"
+title: "RM - Stat analysis"
+author: "Robert Kofler"
+date: "26/09/2023"
 output: github_document
 ---
 

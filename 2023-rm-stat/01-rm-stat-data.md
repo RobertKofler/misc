@@ -1,7 +1,7 @@
-Gonzalez - analysis (MCTE)
+RM - Stat analysis
 ================
-roko
-9/8/2023
+Robert Kofler
+26/09/2023
 
 # Data and source
 
