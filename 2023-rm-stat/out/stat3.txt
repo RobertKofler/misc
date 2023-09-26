@@ -1,0 +1,58 @@
+TBLASTN 2.14.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: E.histolytica.fa
+           39 sequences; 26,879,087 total letters
+
+
+
+Query= STAT3_HUMAN
+
+Length=770
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AP023110.1                                                            29.3    9.5  
+
+
+>AP023110.1
+Length=1662649
+
+ Score = 29.3 bits (64),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 27/50 (54%), Gaps = 7/50 (14%)
+ Frame = +1
+
+Query  551     KENMAGKGFSFWVWLDN--IIDLVKKYILAL-----WNEGYIMGFISKER  593
+               +E   GKG   ++WL N  +I+L+  +  AL       +G  +GFIS+ R
+Sbjct  710086  RERKNGKGVGNYIWLKNKVVIELIDSFSNALLYQFHLKKGDAIGFISRNR  710235
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5937511086
+
+
+  Database: E.histolytica.fa
+    Posted date:  Sep 26, 2023  5:24 PM
+  Number of letters in database: 26,879,087
+  Number of sequences in database:  39
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
